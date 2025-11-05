@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["python310", "pip", "ffmpeg", "libsndfile"]
-
-[phases.install]
-cmds = ["pip install -r requirements-railway.txt"]
-
-[start]
-cmd = "python optimized_main.py"
